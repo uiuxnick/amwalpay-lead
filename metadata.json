@@ -1,0 +1,7 @@
+{
+  "name": "Amwal Survey System",
+  "description": "A production-grade lead capture system with role-based dashboards, robust form validation, and offline-capable architecture.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "amwal-survey-app-v3",
+  "short_name": "Amwal Survey",
+  "name": "Amwal Survey System",
+  "description": "A production-grade lead capture system with role-based dashboards and offline sync.",
+  "icons": [
+    {
+      "src": "https://amwalpay.om/wp-content/uploads/2023/11/WhatsApp-Image-2025-04-20-at-12.04.42.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://amwalpay.om/wp-content/uploads/2023/11/WhatsApp-Image-2025-04-20-at-12.04.42.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "./index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#111827",
+  "background_color": "#111827",
+  "prefer_related_applications": false,
+  "categories": ["business", "productivity", "utilities"]
+}
