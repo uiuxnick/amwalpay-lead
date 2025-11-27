@@ -2,8 +2,8 @@ import { Lead, User, UserRole, DashboardStats, AppSettings, FormConfig, DEFAULT_
 import { createClient } from '@supabase/supabase-js';
 
 const SUPABASE_URL = 'https://ywutnptuhumqfyoaenvm.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl3dXRucHR1aHVtcWZ5b2FlbnZtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQxMDQxNzYsImV4cCI6MjA3OTY4MDE3Nn0.M5MMflPHWB6ty33CG3j5GK9KTCNqZu04p56ewYEhBNA';
-const SUPABASE_SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl3dXRucHR1aHVtcWZ5b2FlbnZtIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2NDEwNDE3NiwiZXhwIjoyMDc5NjgwMTc2fQ.UBioFGdf7ldhuGPpnyM-jPQbE0fQXn35d5aS1dZYWww';
+const SUPABASE_KEY = '3MiOiJzdXBhYmFzZSIsInJlZiI6Inl3dXRucHR1aHVtcWZ5b2FlbnZtIiwicm93NjQxMDQxNzYsImV4cCI6MjA3OTY4MDE3Nn0.M5MMflPHWB6ty33CG3j5GK9KTCNqZu04p56ewYEhBNA';
+const SUPABASE_SERVICE_KEY = 'eyJhbGciOiJIUzI1NJlZiI6Inl3dXRucHR1aHVtcWZ5b2FlbnZVfcm9sZSIsImlhdCI6MTc2NDEwNDE3NiwiZXhwIjoyMDc5NjgwMTc2fQ.UBioFGdf7ldhuGPpnyM-jPQbE0fQXn35d5aS1dZYWww';
 
 const USE_REAL_DB = !!(SUPABASE_URL && SUPABASE_KEY);
 export const isSupabaseConnected = USE_REAL_DB;
